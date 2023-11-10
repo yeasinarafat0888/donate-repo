@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+}
+
+/* Website Header */
+
+header{
+  background-image: url(images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  padding: 300px;
+}
+
+.header-title{
+text-align: center;
+font-size: 20px;
+font-weight: 700px;
+color: white;
+margin-bottom: 30px;
+}
+
+.header-paragarph{
+  text-align: center;
+  font-size: 16px;
+  color: azure;
+  font-weight: 400px;
+  margin-bottom: 30px;
+}
+
+.btn-primary{
+  background-color: rgb(245, 95, 95);
+  color: white;
+  font-weight: 900px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+}
