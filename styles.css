@@ -96,3 +96,78 @@ hr {
   width: 800px;
   margin-left: 275px;
 }
+
+/* Donate Plan Styles */
+
+.donate-title {
+  color: black;
+  font-weight: 900px;
+  font-size: 30px;
+}
+
+.donate-description {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(201, 201, 201);
+  font-weight: 400px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.donate-header-title {
+  text-align: center;
+  /* margin-left: 300px;
+  margin-right: 300px; */
+}
+
+.donate-plan-lists {
+  display: flex;
+  gap: 30px;
+  /* justify-content: space-around; */
+  margin-left: 400px;
+  align-items: center;
+}
+    
+.food-item {
+  background-color: rgb(201, 255, 237);
+  height: 300px;
+  width: 300px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.shelter-item {
+  background-color: rgb(253, 214, 221);
+  height: 300px;
+  width: 300px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.education-item {
+  background-color: rgb(255, 255, 206);
+  height: 300px;
+  width: 300px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.lists-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 40px;
+  font-size: 20px;
+}
+
+.lists-description{
+  color: rgb(150, 150, 150) ;
+}
+
+/* Donation Summary With Picture Section Styles */
+
+
