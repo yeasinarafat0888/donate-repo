@@ -66,7 +66,7 @@ header {
   display: flex;
   gap: 12px;
   /* justify-content: space-between; */
-  margin-left: 300px;
+  margin-left:350px;
 }
 
 .donate-today-tk div:hover {
@@ -94,7 +94,7 @@ header {
 
 hr {
   width: 800px;
-  margin-left: 273px;
+  margin-left: 325px;
 }
 
 /* Donate Plan Styles */
@@ -126,7 +126,7 @@ hr {
   display: flex;
   gap: 30px;
   /* justify-content: space-around; */
-  margin-left: 400px;
+  margin-left: 450px;
   align-items: center;
 }
 
@@ -250,7 +250,7 @@ hr {
 
 /* Get My Updates Styles */
 
-.updates{
+.updates {
   margin-bottom: 150px;
 }
 
@@ -290,56 +290,57 @@ hr {
   margin-left: 550px;
 }
 
- .third-button{
-  background-color: rgb(245, 95, 95);
+.third-button {
+  /* background-color: rgb(245, 95, 95); */
   color: white;
   font-weight: 900px;
   font-size: 20px;
-  border-radius: 5px;
-  padding: 10px;
+  /* border-radius: 5px; */
+  padding: 12px;
   border: none;
   margin-top: 30px;
   align-items: center;
-} 
+  border-radius: 0px 5px 5px 0px;
+  background: #ff5959;
+}
 
- .email-button > input {
+.email-button > input {
   height: 35px;
   width: 300px;
   border-radius: 5px;
   font-weight: 900px;
   font-size: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 5px;
   border-right: none;
-} 
+  border-radius: 5px 0px 0px 5px;
+  background: #d9d9d9;
+}
 
-
-.email-button: input{
+.email-button: input {
   border-radius: 10px;
   width: 300px;
 }
 
-
 /* Footer Styles */
 
-.footer{
+.footer {
   text-align: center;
   padding: 100px;
   background-color: black;
 }
 
-.footer-title{
-   color: black;
+.footer-title {
+  color: black;
   font-weight: 900px;
   font-size: 40px;
-  font-style: italic; 
+  font-style: italic;
   color: palevioletred;
   margin-bottom: 30px;
 }
 
-.footer-description{
+.footer-description {
   color: rgb(145, 145, 255);
   font-weight: 400px;
   font-size: 16px;
-
 }
